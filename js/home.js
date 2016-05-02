@@ -15,14 +15,17 @@
 
     $(document).keydown(function(e) {
         // Space key
-        if (e.which == 32 && !isKeyDown) {
-            $("#gameSprite").attr("src", imgMarioBasicJump);
-            spriteJump();
+        if (e.which == 32) {
+            if (!isKeyDown) {
+                $("#gameSprite").attr("src", imgMarioBasicJump);
+                spriteJump();
 
-            $("#gameItem").attr("src", getItem());
-            toggleItem();
+                $("#gameItem").attr("src", getItem());
+                toggleItem();
 
-            isKeyDown = true;
+                isKeyDown = true;
+            }
+            return false;
         }
     });
 
@@ -35,6 +38,7 @@
             toggleItem();
 
             isKeyDown = false;
+            return false;
         }
     });
 
