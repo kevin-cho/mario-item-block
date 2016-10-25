@@ -1,12 +1,24 @@
 # mario-item-block
 
-This project creates a simple area that allows a Mario sprite to jump, hit an item block, and randomly generate an item. Press `space` or mouse click to jump. Note that this will bind the the keydown and keyup listeners of the space bar on that page. Also, pressing space will no longer scroll the page down.
+This project is a jQuery plugin that creates a simple area that allows a Mario sprite to jump, hit an item block, and randomly generate an item. Press `space` or mouse click to jump.
 
-* Include the js and css files
+### How does it work?
+
 * Include jQuery (e.g. https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js)
+* Include the js and css source files
 * Create an empty div
-* Call the marioInit function with the selector for the div as an argument (e.g. '#mario-item-block')
+* Call the marioItemBlock function on the div
+
+```html
+
+<script src="path/jquery.min.js"></script>
+<script src="path/mario.js"></script>
+<link rel="stylesheet" type="text/css" href="path/mario.css">
+<script>
+  $(document).ready(function() {
+    $('.game').marioItemBlock();
+  });
+</script>
+```
 
 ![Screenshot](http://i.imgur.com/JY2B41C.png)
-
-
