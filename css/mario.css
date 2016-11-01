@@ -1,10 +1,4 @@
-#busyArea {
-  padding: 20px;
-  border: 1px solid gray;
-  margin-bottom: 20px;
-}
-
-div#gameArea {
+#gameArea {
   width: 150px;
   height: 250px;
   background-image: url("http://i.imgur.com/y4kvCV5.png");
