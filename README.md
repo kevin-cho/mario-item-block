@@ -1,6 +1,6 @@
 # mario-item-block
 
-This project is a jQuery plugin that creates a simple area that allows a Mario sprite to jump, hit an item block, and randomly generate an item. Press `space` or mouse click to jump.
+This project is a jQuery plugin that creates a simple area that allows a Mario sprite to jump, hit an item block, and randomly generate an item. Click on the game to jump.
 
 ### How does it work?
 
