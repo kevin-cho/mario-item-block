@@ -3,6 +3,8 @@
   height: 250px;
   background-image: url("http://i.imgur.com/y4kvCV5.png");
   border-radius: 4px;
+  cursor: pointer;
+
   position: relative;
   z-index: 9999;
 }
