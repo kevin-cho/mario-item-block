@@ -26,4 +26,4 @@ This project is a jQuery plugin that creates a simple area that allows a Mario s
 ![Screenshot](http://i.imgur.com/JY2B41C.png)
 
 ### Example
-http://kevincho.ca/mario
+http://kevincho.ca/mario-item-block
