@@ -14,7 +14,12 @@
     var previousValue = 0;
     var isKeyDown = false;
 
-    var gameTemplate = '<div id="gameArea" class="centreContent showContent"><img id="gameItem" src="http://i.imgur.com/ckC1CKK.png" class="centreContent showContent land"></img><img id="gameItemBlock" src="http://i.imgur.com/Gc24df8.png" class="centreContent showContent "></img><img id="gameSprite" src="http://i.imgur.com/zm6xmOT.jpg" class="centreContent showContent stand" align="bottom"></img></div>';
+    var gameTemplate = 
+      '<div id="gameArea" class="centreContent showContent"> \
+        <img id="gameItem" src="http://i.imgur.com/ckC1CKK.png" class="centreContent showContent land"></img> \
+        <img id="gameItemBlock" src="http://i.imgur.com/Gc24df8.png" class="centreContent showContent "></img> \
+        <img id="gameSprite" src="http://i.imgur.com/zm6xmOT.jpg" class="centreContent showContent stand" align="bottom"></img> \
+      </div>';
 
     this.append(gameTemplate);
 
