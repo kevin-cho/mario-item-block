@@ -1,7 +1,7 @@
 #gameArea {
   width: 150px;
   height: 250px;
-  background-image: url("http://i.imgur.com/y4kvCV5.png");
+  background-image: url("../images/background.png");
   border-radius: 4px;
   cursor: pointer;
 
